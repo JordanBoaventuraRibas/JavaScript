@@ -23,11 +23,13 @@ for(i = 0 ; i < pacientes.length ; i++){
         tdimc.textContent = "Peso inválido!";
         paciente.classList.add("paciente-invalido");
         verpeso = false;
+        paciente.classList.add("paciente-invalido");
     }
     if(altura <=0 || altura >= 3){
         tdimc.textContent = "Altura inválida!";
         paciente.classList.add("paciente-invalido");
         veraltura = false;
+        paciente.classList.add("paciente-invalido");
     }
     
     if(veraltura && verpeso){
@@ -36,3 +38,6 @@ for(i = 0 ; i < pacientes.length ; i++){
     }
     
 }
+
+var botaoClicado = document.querySelector("adicionar-paciente");
+botaoClicado.addEventListener("click",);
