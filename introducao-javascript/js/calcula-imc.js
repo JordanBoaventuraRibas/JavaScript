@@ -1,4 +1,4 @@
-console.log("Fui carregado de um arquivo externo");
+//Calcula o IMC 
 
 var titulo = document.querySelector(".titulo");
 
@@ -38,6 +38,3 @@ for(i = 0 ; i < pacientes.length ; i++){
     }
     
 }
-
-var botaoClicado = document.querySelector("adicionar-paciente");
-botaoClicado.addEventListener("click",);
