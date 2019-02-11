@@ -15,7 +15,7 @@ header{
 }
 
 .Bruna{
-	background-color: rgb(240, 1, 1);
+	background-color: rgb(48, 46, 46);
 	height: 3em;
 	color: #FFF;
 	margin-bottom: 1em;
@@ -149,4 +149,9 @@ button[disabled=disabled], button:disabled {
 .fadeOut {
 	opacity: 0;
 	transition: 0.5s;
+}
+#filtrar-tabela{
+	width: 300px;
+	height: 40px;
+	margin-bottom: 10px;
 }
